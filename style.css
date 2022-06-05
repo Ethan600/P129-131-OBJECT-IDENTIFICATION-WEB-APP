@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-family: 'Tapestry', cursive;
+    background-color: greenyellow;
+    font-weight: bolder;
+    width: 100%;
+    margin: 0px;
+    font-size: 30px;
+}
+
+#anchor_img{
+    width: 50px;
+    height: 50px;
+}
+
+a{
+    background-color: blanchedalmond;
+    width: 75%;
+    border-radius: 20px;
+}

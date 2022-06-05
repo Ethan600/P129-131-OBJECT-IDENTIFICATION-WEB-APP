@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-family: 'Tapestry', cursive;
+    background-color: greenyellow;
+    font-weight: bolder;
+    width: 100%;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.back_button{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#back{
+    width: 20px;
+    height: 20px;
+}
+
+canvas{
+    border-radius: 10px;
+    margin-top: 40px;
+    animation-name: gradient;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    background-color: aliceblue;
+    border: 5px ridge brown;
+}
+
+@keyframes gradient{
+    from {box-shadow: 10px 10px 15px goldenrod ;}
+    to {box-shadow: 10px, 10px, 15px, fuchsia ;}
+}
